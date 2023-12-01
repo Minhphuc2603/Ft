@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800;900&display=swap');
+
+:root {
+  --color-primary: #ff9f9f;
+  --side-bar-width: 300px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  line-height: 1.5rem;
+  font-family: "Pacifico", cursive !important;
+  box-sizing: border-box;
+}
+.form-control-flush {
+  padding: 0;
+  background: none !important;
+  border-color: transparent !important;
+  resize: none;
+  box-shadow: none !important;
+  outline: none;
+  line-height: inherit;
+  border-bottom: 1px solid #ffffff !important;
+  color: #ffffff;
+}
+body {
+  font-family: "Pacifico", cursive !important;
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 100%;
+  width: 100%;
+}
+html *::-webkit-scrollbar {
+  border-radius: 0;
+  width: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+html *::-webkit-scrollbar-track {
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+/* About page */
+.about_policy {
+  font-family: 'Inter',sans-serif;
+  background-color: #FDF8EE;
+  color: #000000;
+}
+/* End */
+
+/* wave */
+.ocean {
+  height: 5%;
+  width: 100%;
+  z-index: 0;
+}
+
+.wave {
+  background: url("../../../public/wavepink.png");
+  width: 6400px;
+  height: 300px;
+  animation: wave 1s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+}
+
+
+
+.wave2 {
+  background: url("../../../public/wavewhite.png");
+  width: 6400px;
+  height: 300px;
+  animation: wave  1s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+}
+
+@keyframes wave {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-100% + 100vw));
+  }
+}
+
+@keyframes wave2 {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-100% + 100vw));
+  }
+}
+
+
+/* font import */
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech&display=swap");
+@font-face {
+  font-family: starborn;
+  src: url("../../../public/fonts/Starborn.ttf");
+}
+@font-face {
+  font-family: slab;
+  src: url("../../../public/fonts/RobotoSlab-Regular.ttf");
+}
+@font-face {
+  font-family: sharetech;
+  src: url("../../../public/fonts/ShareTech-Regular.ttf");
+}
+
+/* font */
+
+.starborn {
+  font-family: starborn;
+}
+.sharetech {
+  font-family: sharetech;
+}
+.slab {
+  font-family: slab;
+}
+
+/* search */
+.i-search input[type="search"] {
+  text-align: left;
+  font-family: slab;
+  cursor: pointer;
+  display: block;
+  font-size: 23px;
+  width: 400px;
+  font-weight: 400;
+  word-spacing: 20px;
+  padding-left: 50px;
+}
+.im-search input[type="search"] {
+  text-align: left;
+  font-family: slab;
+  cursor: pointer;
+  display: block;
+  font-size: 23px;
+  width: 300px;
+  font-weight: 400;
+  word-spacing: 20px;
+  padding-left: 50px;
+}
+
+.searchTerm:focus {
+  outline: none;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.bg-menu {
+  background-image: linear-gradient(#ae72d2, #eda1bf);
+}
+
+.bg-D9D9D9 {
+  background-color: #d9d9d9;
+}
+
+@media screen and (max-width: 600px) {
+  .wave, .wave2 {
+    width: 100% !important; 
+  }
+}
+@media screen and (max-width: 1024px) {
+  .wave, .wave2 {
+    width: 100% !important; 
+  }
+}
+@media screen and (max-width: 2048px) {
+  .wave, .wave2 {
+    width: 100%  
+  }
+}
+
+

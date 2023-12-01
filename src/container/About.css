@@ -1,0 +1,148 @@
+.wrapper-about {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper-about .about-top {
+  display: flex;
+  margin-top: 36px;
+  justify-content: center;
+  position: relative;
+}
+.wrapper-about .about-top .male,
+.wrapper-about .about-top .female {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 10px;
+}
+.wrapper-about .about-top .male input,
+.wrapper-about .about-top .female input {
+  display: none;
+}
+.wrapper-about .about-top .male .file-input-label,
+.wrapper-about .about-top .female .file-input-label {
+  border: 1px solid black;
+  background-color: white;
+  padding: 2px;
+}
+.wrapper-about .about-top .male .image,
+.wrapper-about .about-top .female .image {
+  min-width: 270px;
+  max-width: 280px;
+  min-height: 280px;
+  background-color: #d9d9d9;
+  border: 10px solid var(--color-primary);
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapper-about .about-top .male .name,
+.wrapper-about .about-top .female .name {
+  text-align: center;
+  padding-top: 28px;
+  font-weight: 500;
+  width: 100%;
+  font-size: 25px;
+  line-height: 30px;
+}
+.wrapper-about .about-top .male {
+  display: flex;
+  justify-content: left;
+}
+.wrapper-about .about-top .icon-heart {
+  position: absolute;
+  background-image: url(../../image/iconHeart.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 111px;
+  height: 105px;
+  top: 100px;
+}
+.wrapper-about .about-top .female-male,
+.wrapper-about .about-top .male-female {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+.wrapper-about .about-top .female-male .image,
+.wrapper-about .about-top .male-female .image {
+  width: 100%;
+  min-height: 250px;
+  display: flex;
+  margin: 0 auto;
+  background-color: #d9d9d9;
+  border: 1px solid var(--color-primary);
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapper-about .about-top .female-male .name,
+.wrapper-about .about-top .male-female .name {
+  text-align: center;
+  padding-top: 28px;
+  font-weight: 500;
+  width: 100%;
+  font-size: 25px;
+  line-height: 30px;
+}
+.wrapper-about .img-swap {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.wrapper-about .img-swap .img-swap-image {
+  margin-top: 50px;
+  width: 560px;
+  height: 280px;
+  background-color: #d9d9d9;
+  border: 1px solid var(--color-primary);
+  border-radius: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapper-about .img-swap .name {
+  text-align: center;
+  padding-top: 28px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+}
+.wrapper-about .about-main {
+  text-align: center;
+  margin-top: 20px;
+}
+.wrapper-about .about-main .future-love {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 76px;
+}
+.wrapper-about .about-bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 46px;
+  line-height: 60px;
+}
+.wrapper-about .about-bottom button {
+  border: none;
+  outline: none;
+  padding: 10px 11px;
+  background-color: var(--color-primary);
+  border-radius: 10px;
+}
+.wrapper-about .about-bottom button:hover {
+  cursor: pointer;
+}
+.wrapper-about .about-bottom button i {
+  font-size: 35px;
+  color: var(--color-primary);
+  background-color: #370000;
+  border-radius: 50%;
+  padding: 10px;
+}/*# sourceMappingURL=About.css.map */

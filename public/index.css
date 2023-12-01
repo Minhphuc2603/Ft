@@ -1,0 +1,211 @@
+:root {
+    --color-primary: #ff9f9f;
+    --side-bar-width: 300px;
+}
+* {
+    box-sizing: inherit;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.5rem;
+    font-family: 'Pacifico', cursive !important;
+    box-sizing: border-box;
+}
+.form-control-flush {
+    padding: 0;
+    background: none !important;
+    border-color: transparent !important;
+    resize: none;
+    box-shadow: none !important;
+    outline: none;
+    line-height: inherit;
+    border-bottom: 1px solid #FFFFFF !important;
+    color: #FFFFFF;
+}
+body {
+    font-family: 'Pacifico', cursive !important;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+.mt-110 {
+    margin-top: 66px;
+}
+.mt-love2 {
+    margin-top: 20px;
+}
+.-mt-76 {
+    margin-top: -76.5px;
+}
+
+.ml-love3 {
+    margin-left: 5px;
+}
+.h-1000 {
+    height: 100vh;
+}
+
+.inputWrapper {
+    height: 32px;
+    width: 64px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    /*Using a background color, but you can use a background image to represent a button*/
+    background-color: #DDF;
+}
+.fileInput {
+    cursor: pointer;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    right: 0;
+    z-index: 99;
+    /*This makes the button huge. If you want a bigger button, increase the font size*/
+    font-size:50px;
+    /*Opacity settings for all browsers*/
+    opacity: 0;
+    -moz-opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0)
+}
+.responsiveImg {
+    width: 100%;
+    height: auto;
+  }
+
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@font-face {
+    font-family: starborn;
+    src: url('./fonts/Starborn.ttf')
+}
+@font-face {
+    font-family: slab;
+    src: url('./fonts/RobotoSlab-Regular.ttf')
+}
+@font-face {
+    font-family: sharetech;
+    src: url('./fonts/ShareTech-Regular.ttf')
+}
+
+
+/* font */
+
+.starborn {
+    font-family: starborn;
+}
+.sharetech {
+    font-family: sharetech;
+}
+.slab {
+    font-family: slab;
+}
+
+/* search */
+.i-search input[type=search] { 
+	text-align: left;
+    font-family: slab;
+	cursor: pointer;
+	display: block;
+    font-size: 23px;
+	width: 400px; 
+    font-weight: 400;      
+	word-spacing: 20px;    
+    padding-left: 50px;    
+}
+.im-search input[type=search] { 
+	text-align: left;
+    font-family: slab;
+	cursor: pointer;
+	display: block;
+    font-size: 23px;
+	width: 300px; 
+    font-weight: 400;      
+	word-spacing: 20px;    
+    padding-left: 50px;    
+}
+
+.searchTerm:focus{
+  outline: none;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+input::-webkit-search-cancel-button {
+    display: none;
+    margin-right: 20px;
+    margin-left: 10px;
+    content: URL();
+    cursor: pointer;
+}
+
+/* wave */
+  .ocean {
+    height: 5%;
+    width: 100%;
+    z-index: 0;
+  }
+  
+  .wave {
+    background: url('./wavepink.png');
+    width: 6400px;
+    height: 300px;
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+  }
+  
+  @keyframes wave {
+    0% {
+      margin-left: 0;
+    }
+  
+    100% {
+      margin-left: -1600px;
+    }
+  }
+
+  .wave2 {
+    background: url('./wavewhite.png');
+    width: 6400px;
+    height: 300px;
+    animation: wave 4s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+  }
+  
+  @keyframes wave2 {
+    0% {
+      margin-left: 0;
+    }
+  
+    100% {
+      margin-left: -1600px;
+    }
+  }
+
+  .bg-menu {
+    background-image: linear-gradient(#AE72D2, #EDA1BF);
+  }
+
+  .bg-D9D9D9 {
+    background-color: #D9D9D9 ;
+  }
+  .box {
+    overflow-y: scroll;
+  }
+  .box::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+  
+  

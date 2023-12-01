@@ -1,0 +1,33 @@
+.wrapper-side-bar {
+    display: flex;
+   height: 100%;
+    .side-bar {
+        position: sticky;
+        top: 0px;
+        height: 100vh;
+        overflow-y: scroll;
+        ul {
+            background-color: var(--color-primary);
+            width: var(--side-bar-width);
+            height: 100%;
+            padding-left: 0;
+            list-style: none;
+            font-size: 40px;
+            line-height: 61px;
+            font-weight: 300;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+            li {
+                .active {
+                    color: #fff;
+                }
+                a {
+                    text-decoration: none;
+                    min-width: 10px;
+                }
+            }
+        }
+    }
+}

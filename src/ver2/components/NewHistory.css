@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+.container .section {
+  margin: 5px;
+  flex: 1;
+}
+.container .section .imgs {
+  margin-top: auto;
+  width: 100%;
+  height: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .I {
+  text-align: center;
+  justify-content: center;
+  margin-top: 25px;
+  font-size: 30px;
+}
+.container .text {
+  flex: 1;
+  font-size: 25px;
+  text-align: center;
+}/*# sourceMappingURL=NewHistory.css.map */
+.active-tab {
+  background-color: #782353; /* Màu nền khi tab được chọn */
+  color: white; /* Màu chữ khi tab được chọn */
+}

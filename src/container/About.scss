@@ -1,0 +1,168 @@
+.wrapper-about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    // align-items: center;
+    .about-top {
+        display: flex;
+        //grid-template-columns: 50% 50%;
+        // grid-template-columns: 25% 25% 25% 25%;
+        margin-top: 36px;
+        justify-content: center;
+        position: relative;
+
+        .male,
+        .female {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-right: 10px;
+
+            input {
+                display: none;
+            }
+
+            .file-input-label {
+                border: 1px solid black;
+                background-color: white;
+                padding: 2px;
+            }
+
+            .image {
+                min-width: 270px;
+                max-width: 280px;
+                min-height: 280px;
+                //display: flex;
+                // margin: 0 auto;
+                background-color: #d9d9d9;
+                border: 10px solid var(--color-primary);
+                border-radius: 50%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .name {
+                text-align: center;
+                padding-top: 28px;
+                font-weight: 500;
+                width: 100%;
+                font-size: 25px;
+                line-height: 30px;
+            }
+        }
+
+        .male {
+            display: flex;
+            justify-content: left;
+        }
+
+        .icon-heart {
+            position: absolute;
+            // background-image: url(../../image/iconHeart.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 111px;
+            height: 105px;
+
+            top: 100px;
+        }
+
+        .female-male,
+        .male-female {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 10px;
+
+            .image {
+                width: 100%;
+                min-height: 250px;
+                display: flex;
+                margin: 0 auto;
+                background-color: #d9d9d9;
+                border: 1px solid var(--color-primary);
+                border-radius: 50%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .name {
+                text-align: center;
+                padding-top: 28px;
+                font-weight: 500;
+                width: 100%;
+                font-size: 25px;
+                line-height: 30px;
+            }
+        }
+    }
+
+    .img-swap {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+
+        .img-swap-image {
+            margin-top: 50px;
+            width: 560px;
+            height: 280px;
+            background-color: #d9d9d9;
+            border: 1px solid var(--color-primary);
+            border-radius: 40px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .name {
+            text-align: center;
+            padding-top: 28px;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 44px;
+        }
+    }
+
+    .about-main {
+        text-align: center;
+        margin-top: 20px;
+
+        .future-love {
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 76px;
+        }
+    }
+
+    .about-bottom {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        font-size: 46px;
+        line-height: 60px;
+
+        button {
+            border: none;
+            outline: none;
+            padding: 10px 11px;
+            background-color: var(--color-primary);
+            border-radius: 10px;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            i {
+                font-size: 35px;
+                color: var(--color-primary);
+                background-color: #370000;
+                border-radius: 50%;
+                padding: 10px;
+            }
+        }
+    }
+}

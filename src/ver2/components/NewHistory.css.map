@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "sources": [
+        "NewHistory.scss",
+        "NewHistory.css"
+    ],
+    "names": [],
+    "mappings": "AAAA;EACK,aAAA;EACA,aAAA;ACCL;ADCK;EACK,WAAA;EACA,OAAA;ACCV;ADEU;EACK,gBAAA;EACA,WAAA;EACA,WAAA;EACA,oBAAA;KAAA,iBAAA;ACAf;ADIK;EACK,kBAAA;EACA,uBAAA;EACA,gBAAA;EACA,eAAA;ACFV;ADKK;EACK,OAAA;EACA,eAAA;EACA,kBAAA;ACHV",
+    "file": "NewHistory.css"
+}
